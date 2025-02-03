@@ -39,21 +39,9 @@ Decrypted text is: hello world
 - ☕ Java Development Kit (JDK) installed.
 - 🖊 A text editor or an IDE like IntelliJ IDEA, Eclipse, or VS Code.
 
-## 🚀 How to Run
-1. 📂 Clone this repository:
-   ```sh
-   git clone https://github.com/SanyaShresta25/CaesarCipher.git
-   cd CaesarCipher
-   ```
-2. 🏗 Compile the program:
-   ```sh
-   javac CaesarCipher.java
-   ```
-3. ▶️ Run the program:
-   ```sh
-   java CaesarCipher
-   ```
-4. 🖥 Follow the on-screen prompts to enter text and shift values.
+## 🚀 Link to Run
+https://onlinegdb.com/pKNNTXaqv
+   
 
 ## ⚠️ Notes
 - The program only shifts alphabetical characters; spaces remain unchanged.
