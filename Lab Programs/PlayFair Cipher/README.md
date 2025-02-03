@@ -55,6 +55,9 @@ Ciphertext: ZEBBW VXGML
    ```
 4. Follow the on-screen prompts to enter text and key for encryption.
 
+## Link to Run
+https://onlinegdb.com/y4-jPaJJs
+
 ## Notes
 - The program only encrypts alphabetical characters; spaces are ignored.
 - The letter 'J' is replaced with 'I' to fit the 5x5 matrix.
