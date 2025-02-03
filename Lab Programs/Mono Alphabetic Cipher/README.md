@@ -53,6 +53,9 @@ Decrypted Plain Text: hello world
    ```
 4. Follow the on-screen prompts to enter text for encryption and decryption.
 
+## Link to Run
+https://onlinegdb.com/6JQtpuADT
+
 ## Notes
 - The program only substitutes alphabetical characters; spaces remain unchanged.
 - The predefined substitution alphabet must be a permutation of the original alphabet.
