@@ -42,7 +42,7 @@ Decrypted text is: hello world
 ## 🚀 How to Run
 1. 📂 Clone this repository:
    ```sh
-   git clone https://github.com/your-username/CaesarCipher.git
+   git clone https://github.com/SanyaShresta25/CaesarCipher.git
    cd CaesarCipher
    ```
 2. 🏗 Compile the program:
