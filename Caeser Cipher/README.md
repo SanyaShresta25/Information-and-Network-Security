@@ -4,18 +4,18 @@
 This Java program implements the **Caesar Cipher** encryption and decryption techniques. The program allows users to enter a plaintext message and a shift value, which determines how many positions each letter in the text will be shifted in the alphabet.
 
 ## ✨ Features
-- 🔒 Encrypts a given text using the Caesar cipher technique.
-- 🔑 Decrypts the ciphered text back to its original form.
-- 🅰️ Works for both uppercase and lowercase letters.
-- 🏛 Maintains spaces in the original text.
+-  Encrypts a given text using the Caesar cipher technique.
+-  Decrypts the ciphered text back to its original form.
+-  Works for both uppercase and lowercase letters.
+-  Maintains spaces in the original text.
 
 ## ⚙️ How It Works
-1. 📝 The user provides a plaintext message.
-2. 🔢 The user specifies a shift value (key) for the encryption.
-3. 🔄 The program encrypts the plaintext using the Caesar cipher.
-4. 📜 The encrypted text is displayed.
-5. 🔄 The program then decrypts the encrypted text using the same shift value.
-6. 📝 The decrypted text (original message) is displayed.
+1. The user provides a plaintext message.
+2. The user specifies a shift value (key) for the encryption.
+3. The program encrypts the plaintext using the Caesar cipher.
+4. The encrypted text is displayed.
+5. The program then decrypts the encrypted text using the same shift value.
+6. The decrypted text (original message) is displayed.
 
 ## 🛠 Code Explanation
 - 🔐 `encrypt(String plaintext, int shift)`: Encrypts the given text by shifting characters forward in the alphabet.
@@ -56,9 +56,9 @@ Decrypted text is: hello world
 4. 🖥 Follow the on-screen prompts to enter text and shift values.
 
 ## ⚠️ Notes
-- 🔠 The program only shifts alphabetical characters; spaces remain unchanged.
-- 🔢 The shift value should be a positive integer.
-- 🔄 The decryption process reverses the shift to retrieve the original message.
+- The program only shifts alphabetical characters; spaces remain unchanged.
+- The shift value should be a positive integer.
+- The decryption process reverses the shift to retrieve the original message.
 
 
 
