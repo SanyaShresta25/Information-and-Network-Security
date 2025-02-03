@@ -42,7 +42,7 @@ Ciphertext: ZEBBW VXGML
 ## How to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/PlayfairCipher.git
+   git clone https://github.com/SanyaShresta25/PlayfairCipher.git
    cd PlayfairCipher
    ```
 2. Compile the program:
