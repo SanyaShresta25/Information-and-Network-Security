@@ -40,7 +40,7 @@ Decrypted Plain Text: hello world
 ## How to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/MonoCipher.git
+   git clone https://github.com/SanyaShresta25/MonoCipher.git
    cd MonoCipher
    ```
 2. Compile the program:
