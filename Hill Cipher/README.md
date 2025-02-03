@@ -1,63 +1,33 @@
-# 🔐 Playfair Cipher in Java
+# Hill Cipher Encryption 🔐
 
-## 📜 Description
-This Java program implements the **Playfair Cipher**, a classic encryption technique that encrypts pairs of letters in a digraph substitution method. The program processes a given plaintext using a keyword and generates an encrypted ciphertext based on a 5x5 matrix.
+## Overview
+The Hill Cipher is a matrix-based encryption technique that transforms plaintext into ciphertext using a fixed key matrix. It uses matrix multiplication and modulo 26 to encrypt blocks of text.
 
-## Features
-- Encrypts a given text using the Playfair cipher technique.
-- Handles repeated letters and appends 'X' where necessary.
-- Processes only alphabetical characters and converts 'J' to 'I'.
-- Uses a 5x5 matrix generated from a unique keyword.
+## Features ✨
+- Converts plaintext to uppercase and removes spaces.
+- Pads the plaintext with 'X' if its length is not divisible by the matrix size.
+- Encrypts the plaintext using matrix multiplication with a predefined 3x3 key matrix.
 
-## How It Works
-1. The user provides a plaintext message and a keyword.
-2. A 5x5 matrix is generated using the keyword, ensuring unique letters.
-3. The plaintext is preprocessed to remove duplicate consecutive letters and ensure an even number of characters.
-4. The text is encrypted based on Playfair Cipher rules.
-5. The encrypted text is displayed as ciphertext.
+## How It Works 🔍
+1. **Input Plaintext:** The user enters plaintext.
+2. **Key Matrix:** A fixed 3x3 key matrix is used for encryption.
+3. **Preprocessing:** The plaintext is converted to uppercase and padded with 'X' if necessary.
+4. **Encryption:** Each 3-character block of plaintext is encrypted using matrix multiplication with the key matrix.
+5. **Output:** The resulting ciphertext is displayed after encryption.
 
-## 🛠 Code Explanation
-- `createMatrix(String key)`: Generates a 5x5 matrix using the given key.
-- `findPosition(char[][] matrix, char c)`: Finds the row and column position of a character in the matrix.
-- `preprocess(String plaintext)`: Formats the plaintext by replacing 'J' with 'I', inserting 'X' between duplicate letters, and ensuring even-length text.
-- `playfairEncrypt(String plaintext, String key)`: Encrypts the processed plaintext using the matrix.
-- `main(String[] args)`: Handles user input and executes the encryption process.
-
-## 💡 Example Run
-**Input:**
+## Example 💡
+For example, if you input:
 ```
-Enter the plaintext: HELLO WORLD
-Enter the key: KEYWORD
+Enter plaintext: HELLO
+```
+The program will output:
+```
+Encrypted: UQXUB
 ```
 
-**Output:**
-```
-Ciphertext: ZEBBW VXGML
-```
-
-## Requirements
-- Java Development Kit (JDK) installed.
-- A text editor or an IDE like IntelliJ IDEA, Eclipse, or VS Code.
-
-## How to Run
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/PlayfairCipher.git
-   cd PlayfairCipher
-   ```
-2. Compile the program:
-   ```sh
-   javac PlayfairCipher.java
-   ```
-3. Run the program:
-   ```sh
-   java PlayfairCipher
-   ```
-4. Follow the on-screen prompts to enter text and key for encryption.
-
-## Notes
-- The program only encrypts alphabetical characters; spaces are ignored.
-- The letter 'J' is replaced with 'I' to fit the 5x5 matrix.
-- If two identical letters appear in a pair, an 'X' is inserted between them.
-- If the plaintext has an odd number of characters, an 'X' is appended at the end.
+## Usage 🚀
+1. Clone or download this repository to your local machine.
+2. Run the Java program in an IDE or terminal with Java support.
+3. Enter your plaintext when prompted.
+4. View the encrypted ciphertext displayed on the screen.
 
