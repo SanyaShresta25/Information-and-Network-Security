@@ -24,6 +24,8 @@ The program will output:
 ```
 Encrypted: UQXUB
 ```
+## To run
+https://onlinegdb.com/FK4ko6Z8j
 
 ## Usage 🚀
 1. Clone or download this repository to your local machine.
