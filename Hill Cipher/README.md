@@ -1,36 +1,38 @@
-# 🔐 Monoalphabetic Cipher in Java
+# 🔐 Playfair Cipher in Java
 
 ## 📜 Description
-This Java program implements the **Monoalphabetic Substitution Cipher** encryption and decryption techniques. It allows users to encrypt a given message using a predefined substitution mapping and decrypt it back to its original form.
+This Java program implements the **Playfair Cipher**, a classic encryption technique that encrypts pairs of letters in a digraph substitution method. The program processes a given plaintext using a keyword and generates an encrypted ciphertext based on a 5x5 matrix.
 
 ## Features
-- Encrypts a given text using a monoalphabetic substitution cipher.
-- Decrypts the encrypted text back to its original message.
-- Supports case-insensitive encryption and decryption.
-- Uses a predefined substitution mapping for letter replacement.
+- Encrypts a given text using the Playfair cipher technique.
+- Handles repeated letters and appends 'X' where necessary.
+- Processes only alphabetical characters and converts 'J' to 'I'.
+- Uses a 5x5 matrix generated from a unique keyword.
 
 ## How It Works
-1. The user provides a plaintext message.
-2. A predefined substitution alphabet is used to replace each letter in the message.
-3. The encrypted text is displayed.
-4. The program reverses the substitution to decrypt the message back to plaintext.
+1. The user provides a plaintext message and a keyword.
+2. A 5x5 matrix is generated using the keyword, ensuring unique letters.
+3. The plaintext is preprocessed to remove duplicate consecutive letters and ensure an even number of characters.
+4. The text is encrypted based on Playfair Cipher rules.
+5. The encrypted text is displayed as ciphertext.
 
 ## 🛠 Code Explanation
-- 🔐 `encrypt(String msg)`: Encrypts the message by replacing each character using the predefined mapping.
-- 🔓 `decrypt(String msg)`: Decrypts the message by reversing the mapping.
-- 🔄 `hashFn(String a, String b)`: Generates the mapping between original and substituted alphabets.
-- 🎯 `main(String[] args)`: Handles user input, calls encryption and decryption functions, and displays results.
+- `createMatrix(String key)`: Generates a 5x5 matrix using the given key.
+- `findPosition(char[][] matrix, char c)`: Finds the row and column position of a character in the matrix.
+- `preprocess(String plaintext)`: Formats the plaintext by replacing 'J' with 'I', inserting 'X' between duplicate letters, and ensuring even-length text.
+- `playfairEncrypt(String plaintext, String key)`: Encrypts the processed plaintext using the matrix.
+- `main(String[] args)`: Handles user input and executes the encryption process.
 
 ## 💡 Example Run
 **Input:**
 ```
-Enter the message to encrypt: hello world
+Enter the plaintext: HELLO WORLD
+Enter the key: KEYWORD
 ```
 
 **Output:**
 ```
-Encrypted Cipher Text: itssg vgksr
-Decrypted Plain Text: hello world
+Ciphertext: ZEBBW VXGML
 ```
 
 ## Requirements
@@ -40,21 +42,22 @@ Decrypted Plain Text: hello world
 ## How to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/MonoCipher.git
-   cd MonoCipher
+   git clone https://github.com/your-username/PlayfairCipher.git
+   cd PlayfairCipher
    ```
 2. Compile the program:
    ```sh
-   javac MonoCipher.java
+   javac PlayfairCipher.java
    ```
 3. Run the program:
    ```sh
-   java MonoCipher
+   java PlayfairCipher
    ```
-4. Follow the on-screen prompts to enter text for encryption and decryption.
+4. Follow the on-screen prompts to enter text and key for encryption.
 
 ## Notes
-- The program only substitutes alphabetical characters; spaces remain unchanged.
-- The predefined substitution alphabet must be a permutation of the original alphabet.
-- The same mapping is required for both encryption and decryption.
+- The program only encrypts alphabetical characters; spaces are ignored.
+- The letter 'J' is replaced with 'I' to fit the 5x5 matrix.
+- If two identical letters appear in a pair, an 'X' is inserted between them.
+- If the plaintext has an odd number of characters, an 'X' is appended at the end.
 
