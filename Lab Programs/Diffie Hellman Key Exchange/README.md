@@ -43,6 +43,9 @@ Public key of B: 19.0
 Shared key for A: 2.0
 Shared key for B: 2.0
 ```
+## 🚀 Link to Run  
+Run the script on an online Python compiler:  
+[Python Online Compiler](https://onlinegdb.com/w0mt3RmE5)
 
 ## 🖥 Requirements  
 🐍 **Python 3.x** installed.  
