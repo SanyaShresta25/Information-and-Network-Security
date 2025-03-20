@@ -45,7 +45,7 @@ Key 8 = 10010100
 
 ## 🚀 Link to Run  
 Run the script on an online Python compiler:  
-[Python Online Compiler](https://www.programiz.com/python-programming/online-compiler)  
+[Python Online Compiler](https://onlinegdb.com/_CcOhPgeC))  
 
 ## ⚠️ Notes  
 ⚡ This is a **DES key generation simulation**, not a full DES encryption/decryption implementation.  
