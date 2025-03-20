@@ -1,3 +1,4 @@
+
 # 🔐 Feistel Cipher in Python  
 
 ## 📜 Description  
@@ -41,7 +42,11 @@ Decrypted text:  hello
 🐍 **Python 3.x** installed.  
 📝 A text editor or an IDE like **VS Code, PyCharm, or Jupyter Notebook**.  
 
+## 🚀 Link to Run  
+🔹 Run the program online: [Click Here](https://www.onlinegdb.com/)  
+
 ## ⚠️ Notes  
 ⚡ The **encryption is reversible**, ensuring **data integrity**.  
 ⚡ **Keys are randomly generated**, so encryption output varies each time.  
 ⚡ If the input has an **odd length**, it is **padded with 0** for processing.  
+
