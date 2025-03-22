@@ -24,7 +24,7 @@ Secure Key Management System is a Python-based tool designed to securely generat
 1. Clone the repository:
    ```sh
    git clone <[repository-url](https://github.com/SanyaShresta25/Information-and-Network-Security>
-   cd <repository-folder>
+   cd <cd Information-and-Network-Security/TASK%202>
    ```
 2. Install dependencies:
    ```sh
