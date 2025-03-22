@@ -23,8 +23,8 @@ Secure Key Management System is a Python-based tool designed to securely generat
 #### Running the GUI Version 
 1. Clone the repository:
    ```sh
-   git clone <https://github.com/SanyaShresta25/Information-and-Network-Security>
-   cd <cd TASK 2>
+   git clone https://github.com/SanyaShresta25/Information-and-Network-Security
+   cd TASK 2
    ```
 2. Install dependencies:
    ```sh
