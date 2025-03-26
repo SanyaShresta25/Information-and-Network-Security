@@ -40,10 +40,10 @@ Secure Key Management System is a Python-based tool designed to securely generat
 - **Google Colab**: Used for running the CLI-based version online.
   
 ## 🏗️ System Design
-![image](https://github.com/user-attachments/assets/3fcaac2c-630c-4f37-ae60-7d615ba23a0c)
+    ![image](https://github.com/user-attachments/assets/3fcaac2c-630c-4f37-ae60-7d615ba23a0c)
 
 ## 📊 Flowchart
-![image](https://github.com/user-attachments/assets/1dad53c3-7f9b-46c4-b1d6-6fcabdefeb44)
+    ![image](https://github.com/user-attachments/assets/1dad53c3-7f9b-46c4-b1d6-6fcabdefeb44)
 
 ## Running the Project
 
@@ -68,9 +68,10 @@ To run the command-line version, open the following link:
 [SecureKeyMngmt CLI](https://colab.research.google.com/github/SanyaShresta25/Information-and-Network-Security/blob/main/TASK%202/SecureKeyMngmt.ipynb)
 
 ## 🖥️ Output
-![image](https://github.com/user-attachments/assets/4cf9edde-6fbe-4b8c-86af-dabec0150651)
-![image](https://github.com/user-attachments/assets/253c40cc-36df-4609-9abc-387c663a34b6)
-![image](https://github.com/user-attachments/assets/3d285013-5f43-48a8-860f-fa84cad0fed8)
+   ![image](https://github.com/user-attachments/assets/253c40cc-36df-4609-9abc-387c663a34b6)
+   ![image](https://github.com/user-attachments/assets/4cf9edde-6fbe-4b8c-86af-dabec0150651)
+
+  ![image](https://github.com/user-attachments/assets/3d285013-5f43-48a8-860f-fa84cad0fed8)
 
 
 ## Usage
