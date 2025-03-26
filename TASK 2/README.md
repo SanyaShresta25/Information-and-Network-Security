@@ -4,16 +4,6 @@
 Secure Key Management System is a Python-based tool designed to securely generate, store, and manage cryptographic keys. It provides both a **GUI-based version** for an interactive experience and a **command-line version** for direct usage in local environments.
 
 ## Features
-# Key Distribution System
-
-## Overview
-This project implements a **Key Distribution System** that supports:
-- **Centralized Key Distribution** for symmetric encryption.
-- **Public Key Infrastructure (PKI)** for asymmetric encryption.
-- **Secure Key Exchange** using the **Diffie-Hellman** algorithm.
-- **Key Revocation** in case of compromise.
-
-## Features
 ### 1. Centralized Key Distribution (Symmetric Encryption)
 - **AES-256 Encryption** for secure data transmission.
 - **Key Storage:** AES keys are securely stored in a file.
@@ -43,39 +33,11 @@ This project implements a **Key Distribution System** that supports:
 | **Replay Attack** | Secure Diffie-Hellman prevents old key reuse. |
 | **Unauthorized Access** | Private keys are securely stored, limiting access. |
 
-## Installation & Usage
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/key-distribution-system.git
-   cd key-distribution-system
-   ```
-2. **Install Dependencies**
-   ```bash
-   pip install cryptography
-   ```
-3. **Run the Key Distribution System**
-   ```bash
-   python main.py
-   ```
-
-## Future Scope
-- Implement **Role-Based Access Control (RBAC)** for key management.
-- Integrate with a **Key Management Service (KMS)** for better security.
-- Add **Digital Signatures** to authenticate Diffie-Hellman key exchange.
-- Implement **Key Rotation Mechanism** to replace keys periodically.
-
-## License
-This project is licensed under the MIT License.
-
-## Author
-[Your Name] - [Your GitHub Profile]
-
-
 ## 🛠 Tech Stack
 - **Python**: Core programming language.
 - **Tkinter**: GUI framework for the graphical interface.
 - **Cryptography Library**: Used for secure key encryption, decryption, and key exchange.
-- **Google Colab**: Used for running the GUI-based version online.
+- **Google Colab**: Used for running the CLI-based version online.
 
 ## Running the Project
 
@@ -111,6 +73,13 @@ To run the command-line version, open the following link:
 - **User-Friendly Interface:** Simple GUI for easy key management.
 - **Comprehensive Key Lifecycle Management:** From generation to revocation.
 - **Flexible Usage:** Supports both GUI-based and CLI-based interactions.
+
+  ## Future Scope
+- Implement **Role-Based Access Control (RBAC)** for key management.
+- Integrate with a **Key Management Service (KMS)** for better security.
+- Add **Digital Signatures** to authenticate Diffie-Hellman key exchange.
+- Implement **Key Rotation Mechanism** to replace keys periodically.
+
 
 This project is built with security and usability in mind, making cryptographic key management simple yet powerful!
 
