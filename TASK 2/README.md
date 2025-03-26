@@ -38,6 +38,8 @@ Secure Key Management System is a Python-based tool designed to securely generat
 - **Tkinter**: GUI framework for the graphical interface.
 - **Cryptography Library**: Used for secure key encryption, decryption, and key exchange.
 - **Google Colab**: Used for running the CLI-based version online.
+## System Design
+![image](https://github.com/user-attachments/assets/ebb87ebf-a7f4-4bac-973c-d8e514ea6f71)
 
 ## Running the Project
 
