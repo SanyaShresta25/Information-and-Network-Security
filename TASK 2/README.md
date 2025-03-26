@@ -74,14 +74,11 @@ To run the command-line version, open the following link:
 - **Comprehensive Key Lifecycle Management:** From generation to revocation.
 - **Flexible Usage:** Supports both GUI-based and CLI-based interactions.
 
-  ## Future Scope
+## Future Scope
 - Implement **Role-Based Access Control (RBAC)** for key management.
 - Integrate with a **Key Management Service (KMS)** for better security.
 - Add **Digital Signatures** to authenticate Diffie-Hellman key exchange.
 - Implement **Key Rotation Mechanism** to replace keys periodically.
-
-
-This project is built with security and usability in mind, making cryptographic key management simple yet powerful!
 
 ## 📧 Contact
 For any inquiries or support, contact: **sanyashresta@gmail.com**
