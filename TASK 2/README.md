@@ -4,12 +4,72 @@
 Secure Key Management System is a Python-based tool designed to securely generate, store, and manage cryptographic keys. It provides both a **GUI-based version** for an interactive experience and a **command-line version** for direct usage in local environments.
 
 ## Features
-- **Symmetric Key Management:** Secure AES-256 key generation, encryption, and decryption.
-- **Asymmetric Key Management:** RSA key pair generation and storage.
-- **Diffie-Hellman Key Exchange:** Secure shared key generation using DH parameters.
-- **Key Revocation:** Ability to revoke and delete stored keys.
-- **Logging System:** Tracks key operations and displays them in the GUI.
-- **GUI Interface:** A user-friendly graphical interface for managing cryptographic keys.
+# Key Distribution System
+
+## Overview
+This project implements a **Key Distribution System** that supports:
+- **Centralized Key Distribution** for symmetric encryption.
+- **Public Key Infrastructure (PKI)** for asymmetric encryption.
+- **Secure Key Exchange** using the **Diffie-Hellman** algorithm.
+- **Key Revocation** in case of compromise.
+
+## Features
+### 1. Centralized Key Distribution (Symmetric Encryption)
+- **AES-256 Encryption** for secure data transmission.
+- **Key Storage:** AES keys are securely stored in a file.
+- **Encryption & Decryption:** Secure encryption and decryption using the stored key.
+
+### 2. Public Key Infrastructure (PKI) (Asymmetric Encryption)
+- **RSA Key Generation** (2048-bit).
+- **Storage of Private & Public Keys** for secure encryption.
+- **Ability to View RSA Keys** for verification.
+
+### 3. Secure Key Exchange using Diffie-Hellman
+- **Generation of DH Parameters** (Prime modulus & generator).
+- **Exchange of Public Keys** between communicating parties.
+- **Shared Key Derivation** using PBKDF2 for added security.
+
+### 4. Key Revocation
+- **Immediate Deletion of Keys** upon compromise.
+- **AES Key Revocation** ensures sensitive data remains protected.
+- **RSA Key Revocation** for compromised asymmetric keys.
+
+## Security Measures
+| **Threat** | **Mitigation in This System** |
+|------------|------------------------------|
+| **Man-in-the-Middle (MITM) Attack** | RSA encryption ensures public key integrity and prevents MITM. |
+| **Key Compromise** | Key revocation functions allow immediate deletion and replacement. |
+| **Brute Force Attack** | AES-256 and PBKDF2 key derivation ensure strong cryptographic security. |
+| **Replay Attack** | Secure Diffie-Hellman prevents old key reuse. |
+| **Unauthorized Access** | Private keys are securely stored, limiting access. |
+
+## Installation & Usage
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/key-distribution-system.git
+   cd key-distribution-system
+   ```
+2. **Install Dependencies**
+   ```bash
+   pip install cryptography
+   ```
+3. **Run the Key Distribution System**
+   ```bash
+   python main.py
+   ```
+
+## Future Scope
+- Implement **Role-Based Access Control (RBAC)** for key management.
+- Integrate with a **Key Management Service (KMS)** for better security.
+- Add **Digital Signatures** to authenticate Diffie-Hellman key exchange.
+- Implement **Key Rotation Mechanism** to replace keys periodically.
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+[Your Name] - [Your GitHub Profile]
+
 
 ## 🛠 Tech Stack
 - **Python**: Core programming language.
