@@ -1,4 +1,4 @@
-# Honeypot Setup and Monitoring using Cowrie
+# Honeypot Setup and Monitoring using Cowrie 🍯
 
 ## **Objective**
 
