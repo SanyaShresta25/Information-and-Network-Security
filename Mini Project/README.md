@@ -15,6 +15,11 @@ This project aims to set up and configure the Cowrie honeypot on an Ubuntu VM to
 
 ---
 
+## 🎥 Project Demo: Honeypot Setup & Monitoring
+
+[![Watch the Demo](https://img.youtube.com/vi/qQXicKc5wQM/0.jpg)](https://youtu.be/qQXicKc5wQM)
+
+
 ## **Setup Instructions**
 
 ### 1. **System Update**
