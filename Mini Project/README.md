@@ -101,3 +101,8 @@ Graphs are saved and can be used for deeper analysis of attack patterns.
 
 By setting up Cowrie, you can monitor unauthorized access attempts and gather valuable insights into potential attacker behavior. The additional scripts for fake attacks and log analysis enhance the monitoring capabilities, making this setup effective for threat detection and research purposes.
 
+## 🚀 Latest Release
+
+[![GitHub Release](https://img.shields.io/github/v/release/SanyaShresta25/Information-and-Network-Security?style=flat-square)](https://github.com/SanyaShresta25/Information-and-Network-Security/releases/latest)
+
+
