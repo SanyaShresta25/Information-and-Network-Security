@@ -19,6 +19,8 @@ This project aims to set up and configure the Cowrie honeypot on an Ubuntu VM to
 
 [![Watch the Demo](https://img.youtube.com/vi/qQXicKc5wQM/0.jpg)](https://youtu.be/qQXicKc5wQM)
 
+> 🚀 Click the image above to watch the full walkthrough of setting up Cowrie Honeypot, capturing logs, and visualizing attacks in action!
+
 
 ## **Setup Instructions**
 
